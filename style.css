@@ -1,0 +1,204 @@
+html {
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    margin-right: 90.34px;
+}
+
+
+.linha {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 3px;
+}
+
+.coluna{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.coluna-grupos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa input {
+    width: 30px;
+    margin: 10px;
+
+    border: 2px solid black;
+    border-radius: 5px;
+
+    font-size: 18px;
+    text-align: center;
+    
+    
+}
+
+
+.centro {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    margin: 5px;
+}
+
+.centro p {
+
+    background-color: black;
+    border-radius: 100%;
+    color: white;
+
+    padding: 3px;
+}
+
+p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding-left: 5px;
+    font-size: 18px;
+}
+
+.caixa {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    height: 25px;
+    width: 165px;
+    background-color: white;
+
+    color: black;
+    font-size: 20px;
+    white-space: nowrap;
+
+    border:3px solid black;
+    border-radius: 25px;
+
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-bottom: 5px;
+    margin-top: 2px;
+}
+
+.dados {
+    display: flex;
+    align-items: flex-end;
+
+    text-decoration: underline;
+}
+
+.linha-final {
+    display: flex;
+    flex-direction: row;
+}
+
+.divider {
+    height: 1px;
+    width: 100vw;
+
+    border-bottom: 5px solid black;
+}
+
+.poitavas {
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.caixa-8 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-8 {
+    height: 24px;
+    width: 40px;
+
+    border:3px solid black;
+    border-radius: 5px;
+
+    margin-bottom: 5px;
+    margin-top: 2px;
+
+    font-size: 18px;
+    text-align: center;
+    
+}
+
+.linha-oitavas {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: start;
+
+    margin-bottom: 3px;
+    padding: 20px;
+}
+
+.campeao {
+
+    color: green;
+    border: 3px solid blue;
+    border-radius: 10px;
+
+    margin-right: 300px;
+    margin-left: 300px;
+    padding: 10px;
+}
+
+.lugar3 {
+    color: black;
+    border: 3px solid gray;
+    border-radius: 10px;
+
+    margin-right: 300px;
+    margin-left: 300px;
+    padding: 10px;
+}
+
+input[type=button]{
+    height: 120px;
+    font-size: 30px;
+
+    font-weight: bold;
+    background-color: green;
+    color: white;
+
+    padding: 20px;
+    margin: 0 0 0 50px;
+
+    border-radius: 30px;
+    border: 4px solid black;
+}
