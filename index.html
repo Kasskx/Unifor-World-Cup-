@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <h1>Good morning</h1>
+    <form onsubmit="calc()">
+        <span>Catar: </span>
+        <input type="text" name="name" id="name" placeholder="Digite seu nome">
+        <input type="submit" value="Enviar" id="send" onclick="calc()">
+    </form>
+    <h3 id="vencedor">Vencedor: </h3>
+    const grupos = ["Catar", "Equador", "Senegal", "Holanda","Inglaterra", "Irã", "Estados Unidos", "País de Gales",
+    'Argentina', 'Arábia','Saudita', 'México', 'Polônia','França', 'Austrália', 'Dinamarca', 'Tunísia',
+    'Espanha',' Costa Rica', 'Alemanha', 'Japão','Bélgica', 'Canadá', 'Marrocos', 'Croácia',
+    'Brasil', 'Sérvia', 'Suíça', 'Camarões','Portugal', 'Gana', 'Uruguai', 'Coreia do Sul']
+ -->
+        <!-- <div class="coluna">
+            <div class="caixa" id="time1">
+                Catar
+            </div>
+            <div class="caixa">Equador</div>
+            <div class="caixa">Holanda</div>
+            <div class="caixa">Inglaterra</div>
+        </div>
+        
+        <div class="coluna">
+            <div class="caixa">Inglaterra</div>
+            <div class="caixa" >irã</div>
+            <div class="caixa">Estados Unidos</div>
+            <div class="caixa">País de Gales</div>            
+        </div>
+        <div class="coluna">
+            <div class="caixa">Argentina</div>
+            <div class="caixa" >Arábia Saudita</div>
+            <div class="caixa">México</div>
+            <div class="caixa">Polônia</div>            
+        </div> -->       
+
+        <div class="linha-final">
+            <!-- GRUPO A -->
+            <div class="coluna">
+                <h2 class="titulo">GRUPO A</h2>
+                    <div class="linha">
+                        <div class="caixa">CATAR<input type="text" value="" id="jogo0j1"></div>
+                        <div class="centro"><p>X</p></div>
+                        <div class="caixa">EQUADOR<input type="text" value="" id="jogo0j2"></div>
+                        <p>20/11, 13H <br>Al Khor</p>
+                    </div>
+                    <div class="linha">
+                        <div class="caixa" >SENEGAL<input type="text" value="" id="jogo1j1"></div>
+                        <div class="centro"><p>X</p></div>
+                        <div class="caixa">HOLANDA<input type="text" value="" id="jogo1j2"></div>
+                        <p>21/11, 13H <br>Doha</p>
+                    </div>
+                    
+                    <div class="linha">
+                        <div class="caixa" >CATAR<input type="text" value="" id="jogo2j1"></div>
+                        <div class="centro"><p>X</p></div>
+                        <div class="caixa">SENEGAL<input type="text" value="" id="jogo2j2"></div>
+                        <p>25/11, 10H <br>Doha</p>
+                    </div>
+                    <div class="linha">
+                        <div class="caixa" >HOLANDA<input type="text" value="" id="jogo3j1"></div>
+                        <div class="centro"><p>X</p></div>
+                        <div class="caixa">EQUADOR<input type="text" value="" id="jogo3j2"></div>
+                        <p>29/11, 12H <br>Doha</p>
+                    </div>
+                    <div class="linha">
+                        <div class="caixa" >HOLANDA<input type="text" value="" id="jogo4j1"></div>
+                        <div class="centro"><p>X</p></div>
+                        <div class="caixa">CATAR<input type="text" value="" id="jogo4j2"></div>
+                        <p>29/11, 12H <br>Al Khor</p>
+                    </div>
+                    <div class="linha">
+                        <div class="caixa" >EQUADOR<input type="text" value="" id="jogo5j1"></div>
+                        <div class="centro"><p>X</p></div>
+                        <div class="caixa">SENEGAL<input type="text" value="" id="jogo5j2"></div>
+                        <p>29/11, 12H <br>Doha</p>
+                    </div>       
+            </div>
+
+            <!--GRUPO B-->
+            <div class="coluna">
+                <h2 class="titulo">GRUPO B</h2>
+                <div class="linha">
+                    <div class="caixa">INGLATERRA<input type="text" value="" id="jogo6j1"></div>
+                    <div class="centro"><p>X</p></div>
+                    <div class="caixa">IRÃ<input type="text" value="" id="jogo6j2"></div>
+                    <p>21/11, 10H<br>ESTÁDIO KHALIFA INT.</p>
+                </div>
+                <div class="linha">
+                    <div class="caixa" >EUA<input type="text" value="" id="jogo7j1"></div>
+                    <div class="centro"><p>X</p></div>
+                    <div class="caixa">PAÍS DE GALES<input type="text" value="" id="jogo7j2"></div>
+                    <p>21/11, 16H <br>ESTÁDIO AL RAYYAN</p>
+                </div>
+                
+                <div class="linha">
+                    <div class="caixa" >PAÍS DE GALES<input type="text" value="" id="jogo8j1"></div>
+                    <div class="centro"><p>X</p></div>
+                    <div class="caixa">IRÃ<input type="text" value="" id="jogo8j2"></div>
+                    <p>25/11, 7H<br>ESTÁDIO AL RAYYAN</p>
+                </div>
+                <div class="linha">
+                    <div class="caixa" >INGLATERRA<input type="text" value="" id="jogo9j1"></div>
+                    <div class="centro"><p>X</p></div>
+                    <div class="caixa">EUA<input type="text" value="" id="jogo9j2"></div>
+                    <p>25/11, 16H <br>ESTÁDIO AL BAYT</p>
+                </div>
+                <div class="linha">
+                    <div class="caixa" >PÁIS DE GALES<input type="text" value="" id="jogo10j1"></div>
+                    <div class="centro"><p>X</p></div>
+                    <div class="caixa">INGLATERRA<input type="text" value="" id="jogo10j2"></div>
+                    <p>29/11, 16H<br>ESTÁDIO AL RAYYAN</p>
+                </div>
+                <div class="linha">
+                    <div class="caixa" >IRÃ<input type="text" value="" id="jogo11j1"></div>
+                    <div class="centro"><p>X</p></div>
+                    <div class="caixa">EUA<input type="text" value="" id="jogo11j2"></div>
+                    <p>29/11, 16H<br>ESTÁDIO AL THUMAMA</p>
+                </div>           
+            </div>
+
+            <!--GRUPO C-->
+            <div class="coluna">
+                <h2 class="titulo">GRUPO C</h2>
+                <div class="linha">
+                    <div class="caixa">ARGENTINA<input type="text" value="" id="jogo12j1"></div>
+                    <div class="centro"><p>X</p></div>
+                    <div class="caixa">Arábia Saudita<input type="text" value="" id="jogo12j2"></div>
+                    <p>22/11, 7H <br>ESTÁDIO LUSAIL</p>
+                </div>
+                <div class="linha">
+                    <div class="caixa" >MÉXICO<input type="text" value="" id="jogo13j1"></div>
+                    <div class="centro"><p>X</p></div>
+                    <div class="caixa">POLÔNIA<input type="text" value="" id="jogo13j2"></div>
+                    <p>22/11, 13H <br>ESTÁDIO 974</p>
+                </div>
+                
+                <div class="linha">
+                    <div class="caixa" >POLÔNIA<input type="text" value="" id="jogo14j1"></div>
+                    <div class="centro"><p>X</p></div>
+                    <div class="caixa">Arábia Saudita<input type="text" value="" id="jogo14j2"></div>
+                    <p>26/11, 10H <br>Estádio Edu. City
+                    </p>
+                </div>
+                <div class="linha">
+                    <div class="caixa" >ARGENTINA<input type="text" value="" id="jogo15j1"></div>
+                    <div class="centro"><p>X</p></div>
+                    <div class="caixa">MÉXICO<input type="text" value="" id="jogo15j2"></div>
+                    <p>26/11, 16H <br>ESTÁDIO LUSAIL</p>
+                </div>
+                <div class="linha">
+                    <div class="caixa" >POLÔNIA<input type="text" value="" id="jogo16j1"></div>
+                    <div class="centro"><p>X</p></div>
+                    <div class="caixa">ARGENTINA<input type="text" value="" id="jogo16j2"></div>
+                    <p>30/11, 16H <br>ESTÁDIO 974</p>
+                </div>
+                <div class="linha">
+                    <div class="caixa" >Arábia Saudita<input type="text" value="" id="jogo17j1"></div>
+                    <div class="centro"><p>X</p></div>
+                    <div class="caixa">MÉXICO<input type="text" value="" id="jogo17j2"></div>
+                    <p>30/11, 16H <br>ESTÁDIO LUSAIL</p>
+                </div>           
+            </div>
+        </div>
+
+        <div class="linha-final">
+            <!-- GRUPO D -->
+            <div class="coluna">
+                <h2 class="titulo">GRUPO D</h2>
+                    <div class="linha">
+                        <div class="caixa">DINAMARCA<input type="text" value="" id="jogo18j1"></div>
+                        <div class="centro"><p>X</p></div>
+                        <div class="caixa">TUNÍSIA<input type="text" value="" id="jogo18j2"></div>
+                        <p>22/11, 10H<br>ESTÁDIO EDUCATION CITY</p>
+                    </div>
+                    <div class="linha">
+                        <div class="caixa" >FRANÇA<input type="text" value="" id="jogo19j1"></div>
+                        <div class="centro"><p>X</p></div>
+                        <div class="caixa">AUSTRÁLIA<input type="text" value="" id="jogo19j2"></div>
+                        <p>22/11, 16H<br>ESTÁDIO AL JANOUB</p>
+                    </div>
+                    
+                    <div class="linha">
+                        <div class="caixa" >TUNÍSIA<input type="text" value="" id="jogo20j1"></div>
+                        <div class="centro"><p>X</p></div>
+                        <div class="caixa">AUSTRÁLIA<input type="text" value="" id="jogo20j2"></div>
+                        <p>26/11, 7H<br>ESTÁDIO AL JANOUB</p>
+                    </div>
+                    <div class="linha">
+                        <div class="caixa" >FRANÇA<input type="text" value="" id="jogo21j1"></div>
+                        <div class="centro"><p>X</p></div>
+                        <div class="caixa">DINAMARCA<input type="text" value="" id="jogo21j2"></div>
+                        <p>26/11, 13H<br>ESTÁDIO 974</p>
+                    </div>
+                    <div class="linha">
+                        <div class="caixa" >TUNÍSIA<input type="text" value="" id="jogo22j1"></div>
+                        <div class="centro"><p>X</p></div>
+                        <div class="caixa">FRANÇA<input type="text" value="" id="jogo22j2"></div>
+                        <p>30/11, 12H<br>ESTÁDIO EDUCATION CITY</p>
+                    </div>
+                    <div class="linha">
+                        <div class="caixa" >AUSTRÁLIA<input type="text" value="" id="jogo23j1"></div>
+                        <div class="centro"><p>X</p></div>
+                        <div class="caixa">DINAMARCA<input type="text" value="" id="jogo23j2"></div>
+                        <p>30/11, 12H<br>ESTÁDIO AL JANOUB</p>
+                    </div>       
+            </div>
+
+            <!--GRUPO E-->
+
+            <div class="coluna">
+                <h2 class="titulo">GRUPO E</h2>
+                <div class="linha">
+                    <div class="caixa">ALEMANHA<input type="text" value="" id="jogo24j1"></div>
+                    <div class="centro"><p>X</p></div>
+                    <div class="caixa">JAPÃO<input type="text" value="" id="jogo24j2"></div>
+                    <p>23/11, 10H<br>ESTÁDIO KHALIFA INT.</p>
+                </div>
+                <div class="linha">
+                    <div class="caixa" >ESPANHA<input type="text" value="" id="jogo25j1"></div>
+                    <div class="centro"><p>X</p></div>
+                    <div class="caixa">COSTA RICA<input type="text" value="" id="jogo25j2"></div>
+                    <p>23/11, 13H<br>ESTÁDIO AL THUMAMA</p>
+                </div>
+                
+                <div class="linha">
+                    <div class="caixa" >JAPÃO<input type="text" value="" id="jogo26j1"></div>
+                    <div class="centro"><p>X</p></div>
+                    <div class="caixa">COSTA RICA<input type="text" value="" id="jogo26j2"></div>
+                    <p>27/11, 7H<br>ESTÁDIO AL RAYYAN</p>
+                </div>
+                <div class="linha">
+                    <div class="caixa" >ESPANHA<input type="text" value="" id="jogo27j1"></div>
+                    <div class="centro"><p>X</p></div>
+                    <div class="caixa">ALEMANHA<input type="text" value="" id="jogo27j2"></div>
+                    <p>27/11, 16H<br>ESTÁDIO AL BAYT</p>
+                </div>
+                <div class="linha">
+                    <div class="caixa" >JAPÃO<input type="text" value="" id="jogo28j1"></div>
+                    <div class="centro"><p>X</p></div>
+                    <div class="caixa">ESPANHA<input type="text" value="" id="jogo28j2"></div>
+                    <p>1/12, 16H<br>ESTÁDIO KHALIFA INT</p>
+                </div>
+                <div class="linha">
+                    <div class="caixa" >COSTA RICA<input type="text" value="" id="jogo29j1"></div>
+                    <div class="centro"><p>X</p></div>
+                    <div class="caixa">ALEMANHA<input type="text" value="" id="jogo29j2"></div>
+                    <p>1/12, 16H<br>ESTÁDIO AL BAYT</p>
+                </div>           
+            </div>
+
+            <!--GRUPO F-->
+            <div class="coluna">
+                <h2 class="titulo">GRUPO F</h2>
+                <div class="linha">
+                    <div class="caixa">MARROCOS<input type="text" value="" id="jogo30j1"></div>
+                    <div class="centro"><p>X</p></div>
+                    <div class="caixa">CROÁCIA<input type="text" value="" id="jogo30j2"></div>
+                    <p>23/11, 7H<br>ESTÁDIO AS BAYT</p>
+                </div>
+                <div class="linha">
+                    <div class="caixa" >BÉLGICA<input type="text" value="" id="jogo31j1"></div>
+                    <div class="centro"><p>X</p></div>
+                    <div class="caixa">CANADÁ<input type="text" value="" id="jogo31j2"></div>
+                    <p>23/11, 16H<br>ESTÁDIO AL RAYYAN</p>
+                </div>
+                
+                <div class="linha">
+                    <div class="caixa" >BÉLGICA<input type="text" value="" id="jogo32j1"></div>
+                    <div class="centro"><p>X</p></div>
+                    <div class="caixa">MARROCOS<input type="text" value="" id="jogo32j2"></div>
+                    <p>27/11, 10H<br>ESTÁDIO AL THUMAMA</p>
+                </div>
+                <div class="linha">
+                    <div class="caixa" >CROÁCIA<input type="text" value="" id="jogo33j1"></div>
+                    <div class="centro"><p>X</p></div>
+                    <div class="caixa">CANADÁ<input type="text" value="" id="jogo33j2"></div>
+                    <p>27/11, 13H<br>ESTÁDIO KHALIFA INT.</p>
+                </div>
+                <div class="linha">
+                    <div class="caixa" >CROÁCIA<input type="text" value="" id="jogo34j1"></div>
+                    <div class="centro"><p>X</p></div>
+                    <div class="caixa">BÉLGICA<input type="text" value="" id="jogo34j2"></div>
+                    <p>1/12, 12H<br>ESTÁDIO AL RAYYAN</p>
+                </div>
+                <div class="linha">
+                    <div class="caixa" >CANADÁ<input type="text" value="" id="jogo35j1"></div>
+                    <div class="centro"><p>X</p></div>
+                    <div class="caixa">MARROCOS<input type="text" value="" id="jogo35j2"></div>
+                    <p>1/12, 12H<br>ESTÁDIO AL THUMAMA</p>
+                </div>           
+            </div>
+        </div>
+
+        <div class="linha-final" style="display: flex; align-items: center;">
+            <!-- GRUPO G -->
+            <div class="coluna">
+                <h2 class="titulo">GRUPO G</h2>
+                    <div class="linha">
+                        <div class="caixa">SUÍÇA<input type="text" value="" id="jogo36j1"></div>
+                        <div class="centro"><p>X</p></div>
+                        <div class="caixa">CAMARÕES<input type="text" value="" id="jogo36j2"></div>
+                        <p>24/11, 7H<br>ESTÁDIO EDUCATION CITY</p>
+                    </div>
+                    <div class="linha">
+                        <div class="caixa" >BRASIL<input type="text" value="" id="jogo37j1"></div>
+                        <div class="centro"><p>X</p></div>
+                        <div class="caixa">SÉRVIA<input type="text" value="" id="jogo37j2"></div>
+                        <p>24/11, 16H<br>ESTÁDIO LUSAIL</p>
+                    </div>
+                    
+                    <div class="linha">
+                        <div class="caixa" >CAMARÕES<input type="text" value="" id="jogo38j1"></div>
+                        <div class="centro"><p>X</p></div>
+                        <div class="caixa">SÉRVIA<input type="text" value="" id="jogo38j2"></div>
+                        <p>28/11, 7H<br>ESTÁDIO AL JANOUB</p>
+                    </div>
+                    <div class="linha">
+                        <div class="caixa" >BRASIL<input type="text" value="" id="jogo39j1"></div>
+                        <div class="centro"><p>X</p></div>
+                        <div class="caixa">SUÍÇA<input type="text" value="" id="jogo39j2"></div>
+                        <p>28/11, 13H<br>ESTÁDIO 974</p>
+                    </div>
+                    <div class="linha">
+                        <div class="caixa" >CAMARÕES<input type="text" value="" id="jogo40j1"></div>
+                        <div class="centro"><p>X</p></div>
+                        <div class="caixa">BRASIL<input type="text" value="" id="jogo40j2"></div>
+                        <p>2/12, 16H<br>ESTÁDIO LUSAIL</p>
+                    </div>
+                    <div class="linha">
+                        <div class="caixa" >SÉRVIA<input type="text" value="" id="jogo41j1"></div>
+                        <div class="centro"><p>X</p></div>
+                        <div class="caixa">SUÍÇA<input type="text" value="" id="jogo41j2"></div>
+                        <p>2/12, 16H<br>ESTÁDIO 974</p>
+                    </div>       
+            </div>
+            
+            <!--GRUPO H-->
+            <div class="coluna">
+                <h2 class="titulo">GRUPO H</h2>
+                <div class="linha">
+                    <div class="caixa">URUGUAI<input type="text" value="" id="jogo42j1"></div>
+                    <div class="centro"><p>X</p></div>
+                    <div class="caixa">COREIA DO SUL<input type="text" value="" id="jogo42j2"></div>
+                    <p>24/11, 10H<br>ESTÁDIO EDUCATION CITY</p>
+                </div>
+                <div class="linha">
+                    <div class="caixa" >PORTUGAL<input type="text" value="" id="jogo43j1"></div>
+                    <div class="centro"><p>X</p></div>
+                    <div class="caixa">GANA<input type="text" value="" id="jogo43j2"></div>
+                    <p>24/11, 13H<br>ESTÁDIO 974</p>
+                </div>
+                
+                <div class="linha">
+                    <div class="caixa" >COREIA DO SUL<input type="text" value="" id="jogo44j1"></div>
+                    <div class="centro"><p>X</p></div>
+                    <div class="caixa">GANA<input type="text" value="" id="jogo44j2"></div>
+                    <p>28/11, 10H<br>ESTÁDIO EDUCATION CITY</p>
+                </div>
+                <div class="linha">
+                    <div class="caixa" >PORTUGAL<input type="text" value="" id="jogo45j1"></div>
+                    <div class="centro"><p>X</p></div>
+                    <div class="caixa">URUGUAI<input type="text" value="" id="jogo45j2"></div>
+                    <p>28/11, 16H<br>ESTÁDIO LUSAIL</p>
+                </div>
+                <div class="linha">
+                    <div class="caixa" >COREIA DO SUL<input type="text" value="" id="jogo46j1"></div>
+                    <div class="centro"><p>X</p></div>
+                    <div class="caixa">PORTUGAL<input type="text" value="" id="jogo46j2"></div>
+                    <p>2/12, 12H<br>ESTÁDIO EDUCATION CITY</p>
+                </div>
+                <div class="linha">
+                    <div class="caixa" >GANA<input type="text" value="" id="jogo47j1"></div>
+                    <div class="centro"><p>X</p></div>
+                    <div class="caixa">URUGUAI<input type="text" value="" id="jogo47j2"></div>
+                    <p>2/12, 12H<br>ESTÁDIO AL JANOUB</p>
+                </div>           
+            </div>
+            <input type="button" value="Atualizar Fase de Grupos" onclick="atualizarFaseGrupo()">
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="linha" style="margin-top: 5px;">
+            <h1>OITAVAS DE FINAL</h1>
+            <input type="button" value="Atualizar Oitavas" onclick="atualizarPlacarOitavas()">
+            <input type="button" value="Atualizar Quartas" onclick="atualizarPlacarQuartas()">
+        <input type="button" value="Atualizar Semi" onclick="atualizarPlacarSemi()">
+        </div>
+        
+
+        <div class="linha-oitavas"> <!-- Linha mae -->
+            <div class="coluna"> <!-- Coluna mae -->
+
+                <!-- TIME 1 -->
+                <div class="coluna">
+                    <p style="font-weight: bold; color: rgb(2, 47, 92);">03/12 - 12H <br> Estágio Khalifa International</p>
+                    <p class="poitavas">1º DO GRUPO A</p>
+                    <div class="caixa-8">
+                        <div class="caixa" id="jogo48t1"></div><input type="text" id="jogo48j1" class="input-8">
+                    </div>        
+                </div>
+                <p style="margin-left: 130px; font-weight: bold;;">X</p>
+                <!-- TIME 2 -->
+                <div class="coluna">
+                    <p class="poitavas">2º DO GRUPO B</p>
+                    <div class="caixa-8">
+                        <div class="caixa" id="jogo48t2"></div><input type="text" id="jogo48j2" class="input-8">
+                    </div>        
+                </div>
+
+
+                <!-- TIME 3 -->
+                <div class="coluna">
+                    <p style="font-weight: bold; color: rgb(2, 47, 92);">03/12 - 16H <br> Estágio Al Rayyan</p>
+                    <p class="poitavas">1º DO GRUPO C</p>
+                    <div class="caixa-8">
+                        <div class="caixa" id="jogo49t1"></div><input type="text" id="jogo49j1" class="input-8">
+                    </div>        
+                </div>
+                <p style="margin-left: 130px; font-weight: bold;;">X</p>
+                <!-- TIME 4 -->
+                <div class="coluna">
+                    <p class="poitavas">2º DO GRUPO D</p>
+                    <div class="caixa-8">
+                        <div class="caixa" id="jogo49t2"></div><input type="text" id="jogo49j2" class="input-8">
+                    </div>        
+                </div>
+
+                <!-- TIME 5 -->
+                <div class="coluna">
+                    <p style="font-weight: bold; color: rgb(2, 47, 92);">05/12 - 12H <br> Estágio Al Janoub</p>
+                    <p class="poitavas">1º DO GRUPO E</p>
+                    <div class="caixa-8">
+                        <div class="caixa" id="jogo50t1"></div><input type="text" id="jogo50j1" class="input-8">
+                    </div>        
+                </div>
+                <p style="margin-left: 130px; font-weight: bold;;">X</p>
+                <!-- TIME 6 -->
+                <div class="coluna">
+                    <p class="poitavas">2º DO GRUPO F</p>
+                    <div class="caixa-8">
+                        <div class="caixa" id="jogo50t2"></div><input type="text" id="jogo50j2" class="input-8">
+                    </div>        
+                </div>
+
+
+                <!-- TIME 7 -->
+                <div class="coluna">
+                    <p style="font-weight: bold; color: rgb(2, 47, 92);">05/12 - 16H <br> Estágio 974</p>
+                    <p class="poitavas">1º DO GRUPO G</p>
+                    <div class="caixa-8">
+                        <div class="caixa" id="jogo51t1"></div><input type="text" id="jogo51j1" class="input-8">
+                    </div>        
+                </div>
+                <p style="margin-left: 130px; font-weight: bold;;">X</p>
+
+                <!-- TIME 8 -->
+                <div class="coluna">
+                    <p class="poitavas">2º DO GRUPO H</p>
+                    <div class="caixa-8">
+                        <div class="caixa" id="jogo51t2"></div><input type="text" id="jogo51j2" class="input-8">
+                    </div>        
+                </div>
+            </div>
+
+
+            <!-- QUARTAS DE FINAL -->
+            
+                <div class="coluna" style="padding: 5% 0 0 150px;">
+                    <h1 >QUARTAS DE FINAL</h1>
+                    <!-- OITAVAS 1 -->
+                    <div class="coluna">
+                        <p style="font-weight: bold; color: rgb(2, 47, 92);">09/12 - 16H <br> Estágio Lusail</p>
+                        <p class="poitavas">OITAVAS 1</p>
+                        <div class="caixa-8">
+                            <div class="caixa" id="jogo56t1"></div><input type="text" id="jogo56j1" class="input-8">
+                        </div>        
+                    </div>
+                    <p style="margin-left: 130px; font-weight: bold;;">X</p>
+                    <!-- OITAVAS 2 -->
+                    <div class="coluna">
+                        <p class="poitavas">OITAVAS 2</p>
+                        <div class="caixa-8">
+                            <div class="caixa" id="jogo56t2"></div><input type="text" id="jogo56j2" class="input-8">
+                        </div>        
+                    </div>
+
+                    <!-- QUARTAS DE FINAL PARTE 2 -->
+
+                        <!-- OITAVAS 1 -->
+                        <div class="coluna" style="padding-top: 300px;">
+                            <p style="font-weight: bold; color: rgb(2, 47, 92);">09/12 - 12H <br> Estágio Education City</p>
+                            <p class="poitavas">OITAVAS 5</p>
+                            <div class="caixa-8">
+                                <div class="caixa" id="jogo57t1"></div><input type="text" id="jogo57j1" class="input-8">
+                            </div>        
+                        </div>
+                        <p style="margin-left: 130px; font-weight: bold;;">X</p>
+                        
+                        <!-- OITAVAS 2 -->
+                        <div class="coluna">
+                            <p class="poitavas">OITAVAS 6</p>
+                            <div class="caixa-8">
+                                <div class="caixa" id="jogo57t2"></div><input type="text" id="jogo57j2" class="input-8">
+                            </div>        
+                        </div>
+                </div>
+
+                <div class="coluna" style="padding: 25% 0 0 150px;">
+                    <h1 >SEMIFINAIS</h1>
+                    <!-- QUARTAS 1 -->
+                    <div class="coluna">
+                        <p style="font-weight: bold; color: rgb(2, 47, 92);">09/12 - 16H <br> Estágio Lusail</p>
+                        <p class="poitavas">QUARTAS 1</p>
+                        <div class="caixa-8">
+                            <div class="caixa" id="jogo60t1"></div><input type="text" id="jogo60j1" class="input-8">
+                        </div>        
+                    </div>
+
+                    <!-- OITAVAS 2 -->
+                    <div class="coluna">
+                        <p class="poitavas">QUARTAS 2</p>
+                        <div class="caixa-8">
+                            <div class="caixa" id="jogo60t2"></div><input type="text" id="jogo60j2" class="input-8">
+                        </div>        
+                    </div>            
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
+
+        <!-- SEMIFINAIS PARTE 2 -->
+
+
+        
+        <div class="linha" style="margin-top: 5px;">
+            <h1>OITAVAS DE FINAL PARTE 2</h1>
+            <input type="button" value="Atualizar Oitavas" onclick="atualizarPlacarOitavas()">
+            <input type="button" value="Atualizar Quartas" onclick="atualizarPlacarQuartas()">
+        <input type="button" value="Atualizar Semi" onclick="atualizarPlacarSemi()">
+        </div>
+        <div class="linha-oitavas"> <!-- Linha mae -->
+            <div class="coluna"> <!-- Coluna mae -->
+
+                <!-- TIME 1 -->
+                <div class="coluna">
+                    <p style="font-weight: bold; color: rgb(2, 47, 92);">04/12 - 16H <br> Estágio Al Bayt</p>
+                    <p class="poitavas">1º DO GRUPO B</p>
+                    <div class="caixa-8">
+                        <div class="caixa" id="jogo52t1"></div><input type="text" id="jogo52j1" class="input-8">
+                    </div>        
+                </div>
+                <p style="margin-left: 130px; font-weight: bold;;">X</p>
+                <!-- TIME 2 -->
+                <div class="coluna">
+                    <p class="poitavas">2º DO GRUPO A</p>
+                    <div class="caixa-8">
+                        <div class="caixa" id="jogo52t2"></div><input type="text" id="jogo52j2" class="input-8">
+                    </div>        
+                </div>
+
+
+                <!-- TIME 3 -->
+                <div class="coluna">
+                    <p style="font-weight: bold; color: rgb(2, 47, 92);">04/12 - 12H <br> Estágio Al Thumama</p>
+                    <p class="poitavas">1º DO GRUPO D</p>
+                    <div class="caixa-8">
+                        <div class="caixa" id="jogo53t1"></div><input type="text" id="jogo53j1" class="input-8">
+                    </div>        
+                </div>
+                <p style="margin-left: 130px; font-weight: bold;;">X</p>
+                <!-- TIME 4 -->
+                <div class="coluna">
+                    <p class="poitavas">2º DO GRUPO C</p>
+                    <div class="caixa-8">
+                        <div class="caixa" id="jogo53t2"></div><input type="text" id="jogo53j2" class="input-8">
+                    </div>        
+                </div>
+
+                <!-- TIME 5 -->
+                <div class="coluna">
+                    <p style="font-weight: bold; color: rgb(2, 47, 92);">06/12 - 12H <br> Estágio Education City</p>
+                    <p class="poitavas">1º DO GRUPO F</p>
+                    <div class="caixa-8">
+                        <div class="caixa" id="jogo54t1"></div><input type="text" id="jogo54j1" class="input-8">
+                    </div>        
+                </div>
+                <p style="margin-left: 130px; font-weight: bold;;">X</p>
+                <!-- TIME 6 -->
+                <div class="coluna">
+                    <p class="poitavas">2º DO GRUPO E</p>
+                    <div class="caixa-8">
+                        <div class="caixa" id="jogo54t2"></div><input type="text" id="jogo54j2" class="input-8">
+                    </div>        
+                </div>
+
+
+                <!-- TIME 7 -->
+                <div class="coluna">
+                    <p style="font-weight: bold; color: rgb(2, 47, 92);">06/12 - 16H <br> Estágio Lusail/p>
+                    <p class="poitavas">1º DO GRUPO H</p>
+                    <div class="caixa-8">
+                        <div class="caixa" id="jogo55t1"></div><input type="text" id="jogo55j1" class="input-8">
+                    </div>        
+                </div>
+                <p style="margin-left: 130px; font-weight: bold;;">X</p>
+
+                <!-- TIME 8 -->
+                <div class="coluna">
+                    <p class="poitavas">2º DO GRUPO G</p>
+                    <div class="caixa-8">
+                        <div class="caixa" id="jogo55t2"></div><input type="text" id="jogo55j2" class="input-8">
+                    </div>        
+                </div>
+            </div>
+
+
+            <!-- QUARTAS DE FINAL PARTE 2 -->
+            
+                <div class="coluna" style="padding: 5% 0 0 150px;">
+                    <h1 >QUARTAS DE FINAL</h1>
+                    <!-- OITAVAS 3 -->
+                    <div class="coluna">
+                        <p style="font-weight: bold; color: rgb(2, 47, 92);">10/12 - 16H <br> Estágio Al Bayt</p>
+                        <p class="poitavas">OITAVAS 3</p>
+                        <div class="caixa-8">
+                            <div class="caixa" id="jogo58t1"></div><input type="text" id="jogo58j1" class="input-8">
+                        </div>        
+                    </div>
+                    <p style="margin-left: 130px; font-weight: bold;;">X</p>
+                    <!-- OITAVAS 2 -->
+                    <div class="coluna">
+                        <p class="poitavas">OITAVAS 4</p>
+                        <div class="caixa-8">
+                            <div class="caixa" id="jogo58t2"></div><input type="text" id="jogo58j2" class="input-8">
+                        </div>        
+                    </div>
+
+                    <!-- QUARTAS DE FINAL PARTE 2 -->
+
+                        <!-- OITAVAS 7 -->
+                        <div class="coluna" style="padding-top: 300px;">
+                            <p style="font-weight: bold; color: rgb(2, 47, 92);">10/12 - 12H <br> Estágio Al Thumama</p>
+                            <p class="poitavas">OITAVAS 7</p>
+                            <div class="caixa-8">
+                                <div class="caixa" id="jogo59t1"></div><input type="text" id="jogo59j1" class="input-8">
+                            </div>        
+                        </div>
+                        <p style="margin-left: 130px; font-weight: bold;;">X</p>
+                        
+                        <!-- OITAVAS 8 -->
+                        <div class="coluna">
+                            <p class="poitavas">OITAVAS 8</p>
+                            <div class="caixa-8">
+                                <div class="caixa" id="jogo59t2"></div><input type="text" id="jogo59j2" class="input-8">
+                            </div>        
+                        </div>
+                </div>
+
+                <div class="coluna" style="padding: 25% 0 0 150px;">
+                    <h1 >SEMIFINAIS</h1>
+                    <!-- QUARTAS 3 -->
+                    <div class="coluna">
+                        <p style="font-weight: bold; color: rgb(2, 47, 92);">14/12 - 16H <br> Estágio Al Bayt</p>
+                        <p class="poitavas">QUARTAS 3</p>
+                        <div class="caixa-8">
+                            <div class="caixa" id="jogo61t1"></div><input type="text" id="jogo61j1" class="input-8">
+                        </div>        
+                    </div>
+
+                    <!-- Quartas 4 -->
+                    <div class="coluna">
+                        <p class="poitavas">QUARTAS 4</p>
+                        <div class="caixa-8">
+                            <div class="caixa" id="jogo61t2"></div><input type="text" id="jogo61j2" class="input-8">
+                        </div>        
+                    </div>
+            
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="coluna" style="padding: 20px; display: flex; align-items: center; justify-content: center; flex-direction: row;"> <!-- Coluna mae -->
+
+            <!-- SEMIFINAL-->
+            <div style="margin-right: 80px; border: 5px solid black; padding: 20px; text-align: ce;">
+                <div class="coluna" >
+                    <h1 style="margin-left: 60px;">3º LUGAR</h1>
+                    <p style="font-weight: bold; color: rgb(2, 47, 92);">17/12 - 12H <br> Estágio Khalifa International</p>
+                    <p class="poitavas">Perdedor Semifinal 1</p>
+                    <div class="caixa-8">
+                        <div class="caixa" id="jogo63t1"></div><input type="text" id="jogo63j1" class="input-8">
+                    </div>        
+                </div>
+                <p style="margin-left: 130px; font-weight: bold;">X</p>
+                <!-- TIME 2 -->
+                <div class="coluna">
+                    <p class="poitavas">Perdedor Semifinal 2</p>
+                    <div class="caixa-8">
+                        <div class="caixa" id="jogo63t2"></div><input type="text" id="jogo63j2" class="input-8">
+                    </div>        
+                </div>
+            </div>
+
+
+            <!-- FINAL-->
+            <div style="border: 5px solid black; border-radius: 10px; padding: 20px;">
+                <h1>FINAL</h1>
+                <div class="coluna" >
+                    <p style="font-weight: bold; color: rgb(2, 47, 92);">03/12 - 16H <br> Estágio Lusail</p>
+                    <p class="poitavas">Semifinal 1</p>
+                    <div class="caixa-8">
+                        <div class="caixa" id="jogo62t1"></div><input type="text" id="jogo62j1" class="input-8">
+                    </div>        
+                </div>                
+                <p style="margin-left: 130px; font-weight: bold;;">X</p>
+                <!-- TIME 4 -->
+                <div class="coluna">
+                    <p class="poitavas">Semifinal 2</p>
+                    <div class="caixa-8">
+                        <div class="caixa" id="jogo62t2"></div><input type="text" id="jogo62j2" class="input-8">
+                    </div>        
+                </div>
+            </div>
+            <input type="button" value="Atualizar Final" onclick="atualizarPlacarFinal()">
+
+        <input type="button" value="Atualizar Terceiro" onclick="atualizarPlacarTerceiro()">
+        <input type="button" style="background-color: red; color: black;" value="ZERAR TODOS OS PLACARES" onclick="ResetarTodosOsValores()">
+        </div>
+
+        <div class="divider"></div>
+
+        <div style="">
+            <div class="campeao">
+                <h1>CAMPEÃO</h1>
+                <p id="campeao" style="font-size: 30px; font-weight: bold; color: black;"></p>
+            </div>
+            <div class="lugar3">
+                <h1>2º LUGAR</h1>
+                <p id="lugar2" style="font-size: 30px;"></p>
+            </div>
+            <div class="lugar3">
+                <h1>3º LUGAR</h1>
+                <p id="lugar3" style="font-size: 30px;"></p>
+            </div>
+        </div>
+
+        
+        <script src="./index.js"></script>
+</body> 
+</html>
